@@ -5,10 +5,7 @@ BASE_HOA = {
   jetsons: ["George", "Jane", "Judy", "Elroy"]
 }
 def add_character(show, name)
-  add_character ={
-   :show=> ["chipmunks","third_earthers","jetsons"],
-   :name=> ["Alvin", "Simon", "Theodore","Lion-O", "Cheetara", "Mumm-Ra (the ever-living)","George", "Jane", "Judy", "Elroy"]
-  }
+  BASE_HOA[:show]
   # Write your implementation here
   # Should return the array of the 'show' argument
 end
